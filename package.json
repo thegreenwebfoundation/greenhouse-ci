@@ -32,11 +32,12 @@
     "tgwf"
   ],
   "dependencies": {
+    "@hapi/boom": "7.x.x",
+    "@hapi/inert": "^5.2.1",
+    "@hapi/joi": "15.x.x",
+    "haute-couture": "3.x.x",
     "lighthouse": "^5.2.0",
     "lighthouse-ci": "git+https://github.com/thegreenwebfoundation/lighthouse-ci.git#ca-support-lh-plugins",
-    "lighthouse-plugin-greenhouse": "0.0.2",
-    "@hapi/boom": "7.x.x",
-    "@hapi/joi": "15.x.x",
-    "haute-couture": "3.x.x"
+    "lighthouse-plugin-greenhouse": "0.0.2"
   }
 }
