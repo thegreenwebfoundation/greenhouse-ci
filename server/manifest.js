@@ -39,6 +39,9 @@ module.exports = new Confidence.Store({
                     $default: 'hpal-debug',
                     production: Toys.noop
                 }
+            },
+            {
+                plugin: './plugins/swagger'
             }
         ]
     }
