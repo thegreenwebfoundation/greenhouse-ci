@@ -4,6 +4,8 @@ If you want to run the web on renewable power, it helps to know how well you're 
 
 ### Enter Greenhouse CI
 
+![greenhouse-report](greenhouse-report.png)
+
 Greenhouse CI makes it easy to run these checks. Install this, and then run the command like so, passing in the
 
 ```
@@ -22,6 +24,8 @@ seo: 92
 pwa: 48
 lighthouse-plugin-greenhouse: 100
 ```
+
+If you pass in the `--report directory-name` flag, with the directory to put an html report in, you can see the full report too, as the screenshot above shows.
 
 In this case, because Google runs on green energy, the page only loads images or scripts from sites than run on green energy too, we have a perfect 100 score.
 
