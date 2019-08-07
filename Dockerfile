@@ -23,3 +23,4 @@ COPY ./package-lock.json ./package-lock.json
 
 RUN npm install
 # ADD ci-run.sh /usr/local/bin/ci-run.sh
+CMD [ "npm", "start" ]
