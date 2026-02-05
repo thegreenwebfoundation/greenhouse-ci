@@ -40,6 +40,6 @@
     "haute-couture": "3.x.x",
     "lighthouse": "^5.2.0",
     "lighthouse-ci": "git+https://github.com/thegreenwebfoundation/lighthouse-ci.git#ca-support-lh-plugins",
-    "lighthouse-plugin-greenhouse": "0.0.2"
+    "lighthouse-plugin-greenhouse": "0.2.0"
   }
 }
